@@ -1,7 +1,6 @@
 package recursion_practice.Recursion_arrays;
 
 public class max_min {
-    
     public static int[] max_min(int[] i, int idx ,int[] val){
         if(idx == i.length) return val;
         else if(i[idx] < val[0]) {
