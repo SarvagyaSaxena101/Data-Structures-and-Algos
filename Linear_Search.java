@@ -15,5 +15,6 @@ public class Linear_Search {
                 break;
             }
         }
+        sc.close();
     }
 }

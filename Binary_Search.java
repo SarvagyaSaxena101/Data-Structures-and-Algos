@@ -17,7 +17,7 @@ public class Binary_Search {
             else if(arr[mid] > key) end = mid-1;
             else start = mid + 1;
         }
-
+        sc.close();
     }
     
 }

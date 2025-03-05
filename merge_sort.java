@@ -4,7 +4,8 @@ public class merge_sort {
             return arrl[starting];
         }   
         int mid = (starting+ending)/2;
-
+        System.out.println(mid);
+        return 0;
     }
     public static void mst(int[] arr, int starting, int ending){
         if(starting >= ending){
@@ -13,7 +14,7 @@ public class merge_sort {
         
         //Processing
         int mid = (starting+ending)/2;
-         
+        System.out.println(mid);
     }
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7,8,8};
